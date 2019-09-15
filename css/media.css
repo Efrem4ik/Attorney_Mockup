@@ -18,6 +18,9 @@
   .about__text {
     margin-bottom: 35px;
   }
+  .about__info {
+    margin-left: 0;
+  }
   .header {
     margin-bottom: 75px;
   }
@@ -38,7 +41,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 11%;
+    top: 14%;
     width: 100%;
     border-bottom: 5px solid #b1a276;
     padding: 30px 0 0 0;
