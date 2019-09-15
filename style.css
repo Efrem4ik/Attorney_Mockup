@@ -1,0 +1,463 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.container {
+  max-width: 1186px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 148px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0d2e69;
+  height: 118px
+}
+.header__inner a {
+  color: #0d2e69;
+}
+
+.header__logo {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  border: 3px solid #0d2e69;
+  padding: 20px 43px;
+}
+
+.header__phone {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.header__phone-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  max-width: 118px;
+  margin-right: 16px;
+}
+.header__phone-tel {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.header__menu-btn {
+  width: 30px;
+  display: none; 
+  cursor: pointer;
+}
+
+.header__menu-row {
+  background-color: #0d2e69;
+  width: 100%;
+  height: 4px;
+  margin-bottom: 4px;
+  border-radius: 2px;
+
+}
+
+.header__menu li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.header__menu a:hover {
+  color: #1f53ac;
+}
+
+.header__menu li + li {
+  margin-left: 30px;
+}
+
+.main__header {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 864px;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__item-title {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 69px;
+}
+
+.main__item-title span { 
+  display: block;
+  margin-bottom: 14px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.main__item-link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  padding: 19px 36px;
+  background-color: #0d2e69;
+}
+
+.main__inner-form {
+  background-color: #0d2e69;
+  padding: 30px 35px;
+  max-width: 470px;
+  text-align: center;
+}
+
+.main__form-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.main__form-subtitle {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 32px;
+  margin-bottom: 41px;
+}
+
+.main__inner-form {
+  margin-top: 163px;
+}
+
+.main__form input {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: transparent;
+  padding: 17px 14px;
+  border: 1px solid #cccccc;
+  color: #fff;
+}
+
+.main__form textarea {
+  width: 100%;
+  height: 121px;
+  resize: none;
+  background-color: transparent;
+  padding: 17px 14px;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.main__form button {
+  color: #0d2e69;
+  padding: 13px 96px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30.21px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.about {
+  margin-bottom: 68px;
+}
+
+.about__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__info {
+  font-family: "Playfair Display";
+  color: #404040;
+  margin-left: 35px;
+}
+
+.about__title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.about__text {
+  color: #151515;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 67px;
+}
+
+.about__consultation {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.about__link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  padding: 20px 57px;
+  background-color: #0d2e69;
+}
+
+.feedback {
+  margin-bottom: 70px;
+}
+
+.feedback__inner {
+  height: 249px;
+  display: flex;
+  align-items: center;
+  background-color: #0d2e69;
+  text-align: center;
+}
+
+.feedack__consultation {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 68px;
+  text-transform: uppercase;
+}
+
+.feedack__consultation a {
+  font-size: 46px;
+}
+
+.feedback__slider {
+  background-image: url(../images/clients-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  text-align: center;
+}
+
+.feedback__slider-title {
+  padding-top: 98px;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 87px;
+}
+
+.slider__item-text {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 27px;
+  margin-bottom: 7px;
+}
+.slider__item-author {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.slick-prev {
+  left: 48%;
+  top: 125px;
+}
+.slick-next {
+  top: 125px;
+  right: 48%;
+}
+
+.slick-next:before {
+  content: '\203a';
+  font-family: 'Tahoma';
+  background-color: #0d2e69;
+  padding: 3px 7px;
+}
+.slick-prev:before {
+  content: '\2039';
+  font-family: 'Tahoma';
+  background-color: #0d2e69;
+  padding: 3px 7px;
+}
+
+.news {
+  color: #404040;
+}
+
+.news__title {
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 82px;
+  text-align: center;
+}
+
+.news__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.news__item {
+  width: 359px;
+  padding-right: 10px;
+}
+
+.news__item-images img {
+  margin-bottom: 21px;
+  width: 100%;
+}
+.news__item-title {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+.news__item-text {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 100;
+  margin-bottom: 35px;
+}
+.news__item-link {
+  color: #0d2e69;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer__contacts {
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer__inner {
+  background-color: #2b2b2b;
+}
+
+.footer__contacts-info {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer__contacts {
+  padding: 82px 0;
+}
+
+.footer__title {
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.footer__address,
+.footer__email {
+  margin-right: 40px;
+  position: relative;
+}
+
+.footer__address::before,
+.footer__email::before {
+  content: '|';
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.footer__copy {
+  background-color: #242424;
+  height: 62px;
+}
+
+.footer__copy-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.footer__copy-link {
+  margin-right: 35px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__copy-link::before {
+  content: '|';
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+.footer__copy-link:last-child,
+.footer__copy-link:last-child::before {
+  content: '';
+  margin-right: 0;
+}
